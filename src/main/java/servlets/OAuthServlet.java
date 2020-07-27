@@ -61,11 +61,16 @@ public class OAuthServlet extends HttpServlet {
     public void init() throws ServletException {
 
         String environment;
-
+/*
         clientId = this.getInitParameter("clientId");
         clientSecret = this.getInitParameter("clientSecret");
         redirectUri = this.getInitParameter("redirectUri");    // https://canvas.herokuapp.com/oauth/_callback
         environment = this.getInitParameter("environment");    // https://login.salesforce.com
+*/
+        clientId = "3MVG95NPsF2gwOiMaXnPsgGl6PSR7cCOjFdzyFIi7yUvZvClSl64hiCmaiVg.o799e3BggyHH9gjwhMTQDHwe";
+        clientSecret = "FBE37C2C3075FD46F99CD61699BDB970A2887FFC31ADBA457D8C198CC096225F";
+        redirectUri =  "https://canvas.herokuapp.com/oauth/_callback";
+        environment =  "https://test.salesforce.com";
 
         try {
             authUrl = environment
