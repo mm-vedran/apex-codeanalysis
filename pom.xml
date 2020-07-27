@@ -77,6 +77,13 @@
 			<version>2.2.6</version>
 		</dependency>
 
+
+        <dependency>
+            <groupId>custom.salesforce</groupId>
+            <artifactId>tooling</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
